@@ -1,0 +1,144 @@
+:root {
+  box-sizing: border-box;
+}
+.App{
+  position: relative;
+width: 550px;
+height: 704px;
+margin: auto;
+
+}
+header{
+  position: relative;
+  width: 550px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  background: #F55A5A;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+}
+header>img{
+  position: relative;
+width: 24px;
+height: 24px;
+
+}
+header>h3{
+  position: relative;
+width: 109px;
+height: 16px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14.4608px;
+line-height: 18px;
+letter-spacing: -0.075em;
+
+color: #FFFFFF;
+
+}
+
+.details{
+  padding: 50px 40px  ;
+ 
+}
+.list_container>hr{
+  width: 478px;
+height: 0px;
+border: 1px solid #F5F5F5;
+}
+.list{
+  display: flex;
+  padding-top: 18px;
+  
+}
+
+.list_about{
+  padding: 0px 40px 38px 19px;
+}
+.location_img>img{
+  width: 125px;
+height: 168px;
+border-radius: 5px;
+}
+.location_map{
+  display: flex;
+  flex-direction: row;
+  gap: 12px ;
+}
+.location_map>a{
+  position: relative;
+  top: 15px;
+  width: 106px;
+height: 13px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+.location_map_pin-country{
+  position: relative;
+  top: 11px;
+  
+}
+.location_map_pin-country>label{
+  position: relative;
+  width: 40px;
+  left: 4px;
+height: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+}
+.title{
+  width: 326px;
+height: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #2B283A;
+}
+.date{
+  width: 319px;
+height: 11px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;
+
+}
+.description{
+  width: 326px;
+height: 45px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+}
